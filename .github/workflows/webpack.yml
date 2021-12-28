@@ -26,4 +26,8 @@ jobs:
       run: |
         yarn install
         yarn build
-        yarn gh-pages
+
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@4.1.8
+
+
