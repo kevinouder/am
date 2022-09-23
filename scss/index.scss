@@ -15,7 +15,7 @@ p {
   margin: 20px;
 
   @media screen and (min-width: 1200px) {
-    background: url('../public/images/mountain-lake.png');
+    background: url('images/mountain-lake.png');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -113,6 +113,10 @@ p {
 .info-block {
   display: flex;
   justify-content: space-between;
+
+  p:nth-child(2) {
+    text-align: right;
+  }
 }
 
 a {
@@ -131,4 +135,15 @@ a {
 
 .italic {
   font-style: italic;
+}
+
+.logo-link {
+  display: block;
+  margin-top: 20px;
+}
+
+.footer-logos {
+  display: flex;
+  gap: 25px;
+  align-items: center;
 }
