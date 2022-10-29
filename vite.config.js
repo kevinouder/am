@@ -7,6 +7,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
+        "over-mij": resolve(__dirname, 'over-mij.html'),
         privacyverklaring: resolve(__dirname, 'privacyverklaring.html'),
         klachten: resolve(__dirname, 'klachten.html')
       }
