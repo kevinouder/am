@@ -14,8 +14,6 @@ export default defineConfig({
         privacyverklaring: resolve(__dirname, 'privacyverklaring.html'),
         klachten: resolve(__dirname, 'klachten.html'),
         404: resolve(__dirname, '404.html'),
-        "bestanden/Behandelovereenklomst_kind_jonger_dan_16_jr.pdf": resolve(__dirname, 'bestanden/Behandelovereenklomst_kind_jonger_dan_16_jr.pdf'),
-        "bestanden/Behandelovereenkomst.pdf": resolve(__dirname, 'bestanden/Behandelovereenkomst.pdf'),
       }
     }
   },
