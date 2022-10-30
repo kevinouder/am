@@ -8,6 +8,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         "over-mij": resolve(__dirname, 'over-mij.html'),
+        "mijn-visie": resolve(__dirname, 'mijn-visie.html'),
         contact: resolve(__dirname, 'contact.html'),
         werkwijze: resolve(__dirname, 'werkwijze.html'),
         tarieven: resolve(__dirname, 'tarieven.html'),
