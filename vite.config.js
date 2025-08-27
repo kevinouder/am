@@ -3,8 +3,8 @@ import { defineConfig } from 'vite'
 import handlebars from 'vite-plugin-handlebars'
 
 export default defineConfig({
+  base: '/am/',
   build: {
-    base: '/am/',
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
