@@ -4,6 +4,7 @@ import handlebars from 'vite-plugin-handlebars'
 
 export default defineConfig({
   build: {
+    base: '/am/',
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
